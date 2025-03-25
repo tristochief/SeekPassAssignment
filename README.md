@@ -161,9 +161,6 @@ docker-compose up --build
 
 ## Technical Details
 
-### Technical Architecture Diagram
-
-
 ### Data Preprocessing & Model Building
 - **Image Preprocessing:**  
   Images are resized with padding to maintain the original aspect ratio, and normalized using MobileNetV2's `preprocess_input`.
