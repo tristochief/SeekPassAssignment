@@ -95,8 +95,8 @@ Note: this is a simplification of the actual project structure
 Clone the repository and navigate into the project directory:
 
 ```bash
-git clone <repository_url>
-cd <repository_directory>
+git clone [<repository_url>](https://github.com/tristochief/SeekPassAssignment.git)
+cd [<repository_directory>](https://github.com/tristochief/SeekPassAssignment.git)
 
 
 ## Step 2: Prepare the Dataset
