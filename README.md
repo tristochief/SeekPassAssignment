@@ -125,13 +125,10 @@ copy the images folder into the training folder
 
 then run,
 
-```
 
 cd training
 docker build -t my-training-model .
 docker run --rm -v "$(pwd)/model:/app/model" my-training-model
-
-```
 
 To test the model locally,
 
