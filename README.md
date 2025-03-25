@@ -85,8 +85,8 @@ Below is an overview of the project tree structure:
 │   └── model                             # Model directory for evaluation script
 └── training
     └── model                             # Contains training scripts and saved model
+```
 
-```plaintext
 
 Note: this is a simplification of the actual project structure
 
