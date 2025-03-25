@@ -121,7 +121,7 @@ The training script performs these tasks:
 - Evaluates the model on a validation set.
 - Saves the best model as `ensemble_classifier.joblib` in the `training/model` directory.
 
-To train the model locally,
+To train the model,
 
 copy the images folder into the training folder
 
@@ -133,11 +133,9 @@ docker build -t my-training-model .
 docker run --rm -v "$(pwd)/model:/app/model" my-training-model
 ```
 
-To test the model locally,
+To test the model,
 
-copy the images folder to the testing folder, then run
-
-then run,
+copy the images folder to the testing folder, then run,
 
 ```bash
 cd testing
