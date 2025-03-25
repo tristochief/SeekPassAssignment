@@ -1,0 +1,11 @@
+# Ignore any node_modules directory at any level
+**/node_modules/
+
+# Ignore any Python bytecode files
+*.pyc
+
+# Ignore all files (recursively) in any folder named "images"
+**/images/**/*
+
+# Re-include only the directories inside any "images" folder to preserve the folder structure
+!**/images/**/
