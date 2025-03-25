@@ -15,7 +15,7 @@ Description: Observing the sky for a duration of 3 minutes yields a 60% probabil
 - P(At least 1 plane) in 1 minute.
 
 ### Mathematical Steps
-
+```plaintext
 P(T<=t) = 1 - e^(-lt)
 
 Where: 
@@ -39,7 +39,7 @@ Now simply use the formula but for 1 minute:
             = 1 - 0.7368
 
     => P(T<=t) = 0.2631 (approx)
-
+```
 ### The Final Result
 
 The probability of spotting at least one plane within 1 minute is approximately 26.34%
