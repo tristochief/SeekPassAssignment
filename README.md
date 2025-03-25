@@ -86,6 +86,7 @@ Below is an overview of the project tree structure:
 └── training
     └── model                             # Contains training scripts and saved model
 
+```plaintext
 
 Note: this is a simplification of the actual project structure
 
