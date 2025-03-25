@@ -103,9 +103,11 @@ cd [<repository_directory>](https://github.com/tristochief/SeekPassAssignment.gi
 
 Extract the `images.zip` file into the `images` directory. Ensure the directory structure is maintained as follows:
 
+```plaintext
 images/
 ├── train          # Contains training images organized by class
 └── test           # Contains testing images organized by class
+```
 
 use split.py on the images folder to produce the test and train images in the right directory.
 
@@ -125,10 +127,11 @@ copy the images folder into the training folder
 
 then run,
 
-
+```bash
 cd training
 docker build -t my-training-model .
 docker run --rm -v "$(pwd)/model:/app/model" my-training-model
+```
 
 To test the model locally,
 
@@ -136,9 +139,11 @@ copy the images folder to the testing folder, then run
 
 then run,
 
+```bash
 cd testing
 docker build -t flask-ml-app .
 docker run -p 8000:8000 flask-ml-app
+```
 
 then open in your web browser the url specified by docker, usually 
 http://127.0.0.1:8000
@@ -147,8 +152,9 @@ http://127.0.0.1:8000
 
 From the root directory, execute:
 
+```bash
 docker-compose up --build
-
+```
 
 ## Step 5: Use the Application
 
