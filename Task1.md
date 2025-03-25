@@ -19,7 +19,7 @@ Description: Observing the sky for a duration of 3 minutes yields a 60% probabil
 P(T<=t) = 1 - e^(-lt)
 
 Where: 
-    P(t<=t) the probability of spotting at lest 1 plane in time t
+    P(t<=t) the probability of spotting at least 1 plane in time t
     l is the amount of planes per minute
     t is the time duration
     e is euler's number
